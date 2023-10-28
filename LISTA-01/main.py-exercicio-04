@@ -1,0 +1,6 @@
+#Faça um Programa que peça o raio de um círculo, calcule e imprima sua área.
+#area = pi.raio*raio
+print('Informe o raio do círculo:')
+raio = float(input())
+area= 3.14 * (raio**2)
+print('A área do círculo informado é: '+ str(area))
