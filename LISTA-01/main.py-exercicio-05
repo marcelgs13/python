@@ -1,0 +1,8 @@
+#Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+print('Informe a base do quadrado:')
+base = float(input())
+print('Informe a altura do quadrado:')
+altura = float(input())
+area_do_quadrado = base * altura
+dobro_da_area = area_do_quadrado ** 2
+print('A área do quadrado é de '+ str(area_do_quadrado)+ ' e seu dobro é de '+ str(dobro_da_area))
