@@ -1,0 +1,11 @@
+#Faça um Programa que recebe um tempo em dias, horas e minutos, e, produz como saída esse tempo total em minutos.
+print('Informe o dia:')
+dia = int(input())
+print('Informe a hora:')
+hora = int(input())
+print('Informe os minutos:')
+minutos = int(input())
+dia_em_minuto = dia * 1440
+hora_em_minuto = hora * 60
+calculo_final= dia_em_minuto + hora_em_minuto + minutos
+print('O tempo total em minutos foi de '+ str(calculo_final)+' minutos.')
