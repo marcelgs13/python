@@ -1,0 +1,5 @@
+#Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+print('Informe a temperatura em graus Celsius:')
+celsius = float(input())
+conversao_para_farenheit = (celsius * 1.8) + 32
+print('A conversão de '+ str(celsius)+ ' celsius para farenheit é '+ str(conversao_para_farenheit))
