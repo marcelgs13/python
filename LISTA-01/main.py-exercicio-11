@@ -1,0 +1,8 @@
+#Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+#Para homens: (72.7*h) - 58
+#Para mulheres: (62.1*h) - 44.7
+print('Informe a altura da pessoa:')
+h = float(input())
+calculo_homen = (72.7*h) - 58
+calculo_mulher = (62.1*h) - 44.7
+print('Se o indivíduo for homen o peso ideal é de: '+ str(calculo_homen)+ ' e se caso for mulher é de: '+ str(calculo_mulher))
