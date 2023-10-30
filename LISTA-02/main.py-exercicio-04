@@ -1,0 +1,19 @@
+#Escreva um programa que receba como entrada um número e exiba mensagens informando:
+#Se ele é ímpar
+#Se ele é múltiplo de 3
+#Se ele é divisor de 102
+#Lembrete: Um número é múltiplo de três se o resto de sua divisão por três for zero.
+# Um número é divisor de 102 caso a divisão de 102 por esse número tenha o resto zero.
+num = float(input('Informe um número:'))
+if num % 2 != 0:
+    print('O número ',num,' é ímpar.')
+else:
+    print('O número ',num,' não é ímpar.')
+if num % 3 == 0:
+    print('O número ',num,' é múltiplo de 3.')
+else:
+    print('O número ',num,' não é múltiplo de 3.')
+if 102 % num == 0:
+    print('O número ',num,' é divisor de 102.')
+else:
+    print('O número ',num,' não é divisor de 102.')    
